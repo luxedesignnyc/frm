@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5.0" type="component">
+	<name>Document</name>
+	<author>TUYEN</author>
+	<creationDate>Dec 2011</creationDate>
+	<copyright>Copyright (C) FORZAWAY 2011.</copyright>
+	<license>http://www.forzaway.vn</license>
+	<authorEmail>info@forzaway.com</authorEmail>
+	<authorUrl>www.forzaway.com</authorUrl>
+	<version>1.5.0</version>
+	<description>Document Manager</description>
+	<files>
+	</files>
+
+	
+	<files>
+		<filename>index.html</filename>
+		<filename>document.php</filename>
+		<filename>controller.php</filename>
+		
+		<folder>assets</folder>
+		<folder>controllers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+	
+	
+ 	
+	<administration>
+ 		<menu img="components/com_jquarks/assets/images/jquarks.ico">Documents</menu>
+	</administration>
+
+	<params>
+		<param name="paginate" default="1"></param>
+		<param name="questionPage" default="5"></param>
+		<param name="slide" default="1"></param>
+	</params>
+</install>
