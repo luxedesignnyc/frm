@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password"
+AuthUserFile "/home/thitru12/.htpasswds/public_html/system/passwd"
+require valid-user
