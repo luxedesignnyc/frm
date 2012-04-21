@@ -1,0 +1,2 @@
+AuthName "Password"
+AuthUserFile "/home/thitru12/.htpasswds/public_html/templates/admin/passwd"
